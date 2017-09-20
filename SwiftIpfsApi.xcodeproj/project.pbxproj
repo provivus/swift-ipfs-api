@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		041359DD1F515D9D00630661 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 041359DC1F515D9D00630661 /* Cartfile */; };
-		042F9DF91F5BEF1300933D5C /* Lab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042F9DF81F5BEF1300933D5C /* Lab.swift */; };
-		042F9DFB1F5BEF1300933D5C /* SwiftIpfsApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0A3AAD1BD6705B0090C97A /* SwiftIpfsApi.framework */; };
 		AB0A3AB81BD6705B0090C97A /* SwiftIpfsApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0A3AAD1BD6705B0090C97A /* SwiftIpfsApi.framework */; };
 		AB0A3ABD1BD6705B0090C97A /* SwiftIpfsApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0A3ABC1BD6705B0090C97A /* SwiftIpfsApiTests.swift */; };
 		AB0A3AC81BD671320090C97A /* MerkleNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0A3AC71BD671320090C97A /* MerkleNode.swift */; };
@@ -36,13 +34,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		042F9DFC1F5BEF1300933D5C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AB0A3AA41BD6705B0090C97A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AB0A3AAC1BD6705B0090C97A;
-			remoteInfo = SwiftIpfsApi;
-		};
 		AB0A3AB91BD6705B0090C97A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AB0A3AA41BD6705B0090C97A /* Project object */;
@@ -54,9 +45,6 @@
 
 /* Begin PBXFileReference section */
 		041359DC1F515D9D00630661 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = SOURCE_ROOT; };
-		042F9DF61F5BEF1300933D5C /* Lab.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		042F9DF81F5BEF1300933D5C /* Lab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab.swift; sourceTree = "<group>"; };
-		042F9DFA1F5BEF1300933D5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB0A3AAD1BD6705B0090C97A /* SwiftIpfsApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftIpfsApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB0A3AB21BD6705B0090C97A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB0A3AB71BD6705B0090C97A /* SwiftIpfsApiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftIpfsApiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,14 +74,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		042F9DF31F5BEF1300933D5C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				042F9DFB1F5BEF1300933D5C /* SwiftIpfsApi.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AB0A3AA91BD6705B0090C97A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -112,22 +92,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		042F9DF71F5BEF1300933D5C /* Lab */ = {
-			isa = PBXGroup;
-			children = (
-				042F9DF81F5BEF1300933D5C /* Lab.swift */,
-				042F9DFA1F5BEF1300933D5C /* Info.plist */,
-			);
-			path = Lab;
-			sourceTree = "<group>";
-		};
 		AB0A3AA31BD6705B0090C97A = {
 			isa = PBXGroup;
 			children = (
 				AB0A3AAF1BD6705B0090C97A /* SwiftIpfsApi */,
 				AB0A3ABB1BD6705B0090C97A /* SwiftIpfsApiTests */,
 				ABEDF91C1BF0BCBB007A1B2B /* Extensions */,
-				042F9DF71F5BEF1300933D5C /* Lab */,
 				AB0A3AD81BD673A30090C97A /* Frameworks */,
 				AB0A3AAE1BD6705B0090C97A /* Products */,
 			);
@@ -138,7 +108,6 @@
 			children = (
 				AB0A3AAD1BD6705B0090C97A /* SwiftIpfsApi.framework */,
 				AB0A3AB71BD6705B0090C97A /* SwiftIpfsApiTests.xctest */,
-				042F9DF61F5BEF1300933D5C /* Lab.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -217,24 +186,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		042F9DF51F5BEF1300933D5C /* Lab */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 042F9E001F5BEF1300933D5C /* Build configuration list for PBXNativeTarget "Lab" */;
-			buildPhases = (
-				042F9DF21F5BEF1300933D5C /* Sources */,
-				042F9DF31F5BEF1300933D5C /* Frameworks */,
-				042F9DF41F5BEF1300933D5C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				042F9DFD1F5BEF1300933D5C /* PBXTargetDependency */,
-			);
-			name = Lab;
-			productName = Lab;
-			productReference = 042F9DF61F5BEF1300933D5C /* Lab.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		AB0A3AAC1BD6705B0090C97A /* SwiftIpfsApi */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB0A3AC11BD6705B0090C97A /* Build configuration list for PBXNativeTarget "SwiftIpfsApi" */;
@@ -282,11 +233,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Teo Sartori";
 				TargetAttributes = {
-					042F9DF51F5BEF1300933D5C = {
-						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = BH7Z7SE66T;
-						ProvisioningStyle = Automatic;
-					};
 					AB0A3AAC1BD6705B0090C97A = {
 						CreatedOnToolsVersion = 7.1;
 						LastSwiftMigration = 0800;
@@ -311,19 +257,11 @@
 			targets = (
 				AB0A3AAC1BD6705B0090C97A /* SwiftIpfsApi */,
 				AB0A3AB61BD6705B0090C97A /* SwiftIpfsApiTests */,
-				042F9DF51F5BEF1300933D5C /* Lab */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		042F9DF41F5BEF1300933D5C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AB0A3AAB1BD6705B0090C97A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -358,14 +296,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		042F9DF21F5BEF1300933D5C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				042F9DF91F5BEF1300933D5C /* Lab.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AB0A3AA81BD6705B0090C97A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -405,11 +335,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		042F9DFD1F5BEF1300933D5C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AB0A3AAC1BD6705B0090C97A /* SwiftIpfsApi */;
-			targetProxy = 042F9DFC1F5BEF1300933D5C /* PBXContainerItemProxy */;
-		};
 		AB0A3ABA1BD6705B0090C97A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = AB0A3AAC1BD6705B0090C97A /* SwiftIpfsApi */;
@@ -418,43 +343,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		042F9DFE1F5BEF1300933D5C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = BH7Z7SE66T;
-				INFOPLIST_FILE = Lab/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = us.proviv.Lab;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		042F9DFF1F5BEF1300933D5C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = BH7Z7SE66T;
-				INFOPLIST_FILE = Lab/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = us.proviv.Lab;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		AB0A3ABF1BD6705B0090C97A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -647,6 +535,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = SwiftIpfsApiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Terminal-Glow.SwiftIpfsApiTests";
 				PRODUCT_NAME = SwiftIpfsApiTests;
@@ -663,6 +552,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = SwiftIpfsApiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Terminal-Glow.SwiftIpfsApiTests";
 				PRODUCT_NAME = SwiftIpfsApiTests;
@@ -674,15 +564,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		042F9E001F5BEF1300933D5C /* Build configuration list for PBXNativeTarget "Lab" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				042F9DFE1F5BEF1300933D5C /* Debug */,
-				042F9DFF1F5BEF1300933D5C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		AB0A3AA71BD6705B0090C97A /* Build configuration list for PBXProject "SwiftIpfsApi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
