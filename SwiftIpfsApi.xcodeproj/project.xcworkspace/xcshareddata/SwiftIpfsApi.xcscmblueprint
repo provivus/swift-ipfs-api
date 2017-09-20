@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E8D854A05BA318B1B477101EE37A7F5F8B5E92CB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0B52CDF3A0EDE26CCFCCF3ECC8AFEA25B04B319E" : 9223372036854775807,
+    "E8D854A05BA318B1B477101EE37A7F5F8B5E92CB" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "222138A1-1455-4A3C-9388-B9C584427975",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0B52CDF3A0EDE26CCFCCF3ECC8AFEA25B04B319E" : "",
+    "E8D854A05BA318B1B477101EE37A7F5F8B5E92CB" : "swift-ipfs-api\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SwiftIpfsApi",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SwiftIpfsApi.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:advatar\/hack.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0B52CDF3A0EDE26CCFCCF3ECC8AFEA25B04B319E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:provivus\/swift-ipfs-api.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E8D854A05BA318B1B477101EE37A7F5F8B5E92CB"
+    }
+  ]
+}
