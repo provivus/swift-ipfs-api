@@ -241,9 +241,6 @@ public class IpfsApi : IpfsApiClient {
                 
                 let json = JsonType.parse(try JSONSerialization.jsonObject(with: fixedData, options: JSONSerialization.ReadingOptions.allowFragments) as AnyObject)
                 
-                
-                print(json)
-                
                 let res = try merkleNodesFromJson(json)
                 guard res.count > 0 else { throw IpfsApiError.jsonSerializationFailed }
                 
@@ -270,7 +267,6 @@ public class IpfsApi : IpfsApiClient {
                 
                 
                 let json = JsonType.parse(try JSONSerialization.jsonObject(with: fixedData, options: JSONSerialization.ReadingOptions.allowFragments) as AnyObject)
-                print(json)
                 
                 let res = try merkleNodesFromJson(json)
                 guard res.count > 0 else { throw IpfsApiError.jsonSerializationFailed }
