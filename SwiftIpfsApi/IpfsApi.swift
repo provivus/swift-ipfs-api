@@ -405,6 +405,7 @@ public class IpfsApi : IpfsApiClient {
             let json = try JSONSerialization.jsonObject(with: fixed, options: JSONSerialization.ReadingOptions.allowFragments)
                 
             if let arr = json as? [AnyObject] {
+                print("log:")
                 for res in arr {
                     print(res)
                 }
